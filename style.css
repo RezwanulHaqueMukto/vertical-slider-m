@@ -8,6 +8,8 @@
     position: relative;
     height: 100%;
     width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .slide {
@@ -23,7 +25,7 @@
 .slide.next-next {
     z-index: 3;
     opacity: 1;
-    top: 20%;
+    top: 15%;
 }
 
 .slide.next {
@@ -34,7 +36,7 @@
 .slide.active {
     z-index: 1;
     opacity: 1;
-    top: 10%;
+    top: 0%;
 
 }
 
