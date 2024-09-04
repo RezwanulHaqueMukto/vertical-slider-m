@@ -20,40 +20,31 @@
     opacity: 0;
 
 }
-
-.slide>img {
-    border-radius: 15px;
-
-}
-
-
-.slide.active {
-
+.slide.next-next {
     z-index: 3;
     opacity: 1;
     top: 20%;
-
 }
 
 .slide.next {
     z-index: 2;
     opacity: 1;
     top: -18%;
+}
+.slide.active {
+    z-index: 1;
+    opacity: 1;
+    top: 10%;
 
+}
 
+.slide>img {
+    border-radius: 15px;
 }
 
 .slide.next.incoming>img {
 
     border-radius: 15px;
-}
-
-.slide.next-next {
-    z-index: 1;
-    opacity: 1;
-    top: 10%;
-
-
 }
 
 .slide.incoming {
